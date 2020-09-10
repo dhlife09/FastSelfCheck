@@ -1,3 +1,4 @@
+
 # FastSelfCheck
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -19,11 +20,15 @@ Chrome v85 기반으로 제작되었으며, 자가진단 완료 후 자동으로
 
 
 ## How to Install?
+![image](https://user-images.githubusercontent.com/22024308/92724479-a31d9600-f3a5-11ea-86b5-9f629d2f47b7.png)
+
 1. 먼저 해당 Repository 를 내려받으세요.
 2. pip install -r requirements.txt 명령어를 통해 selenium 모듈을 설치해 주세요.
 3. app.py 파일의 11번 째 줄 부터 규칙을 읽고 동의해주세요.
 4. 25번째 줄부터 개인 정보를 입력해주세요. (정확히 입력해야 합니다.)
 5. 메일 알림 기능을 사용하는 경우 38번 째 줄부터 SMTP 설정을 해주세요. (사용하지 않으시는 경우, 건너뛰시면 됩니다.)
+
+![image](https://user-images.githubusercontent.com/22024308/92724501-ac0e6780-f3a5-11ea-86ba-7c2dfce4392c.png)
 
 ## How to Use?
 1. 아래의 내용으로 배치 파일(.bat)을 만들어 주세요. ( app.py는 자가진단 프로그램의 이름으로 설정해 주시고, 여러명의 자가진단을 진행하는 경우에는 app.py 파일을 복사해서 이름만 다르게 설정하고 배치 파일에 추가해 주면 됩니다.
@@ -46,5 +51,6 @@ Chrome v85 기반으로 제작되었으며, 자가진단 완료 후 자동으로
     
     exit
 
-2. 배치파일을 실행하면 자가진단이 완료됩니다.
+2. 배치파일을 실행하면 자가진단이 완료됩니다. (메일 결과전송 기능이 True인 경우, 아래와 같이 결과메일이 발송됩니다.)
 
+![20200910_204130](https://user-images.githubusercontent.com/22024308/92724806-2939dc80-f3a6-11ea-938e-f37f4319163e.jpg)
